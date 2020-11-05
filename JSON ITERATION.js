@@ -166,21 +166,7 @@ function fromListToObject(arr) {
 //console.log(fromListToObject(array1));
 
 
-var array2 = [[["firstName", "Vasanth"], ["lastName", "Raja"], ["age", 24], ["role", "JSWizard"]], [["firstName", "Sri"], ["lastName", "Devi"], ["age", 28], ["role", "Coder"]]];
 
-function transformEmployeeData(arr) {
-    var tranformEmployeeList = {};
-    for(key in arr)
-    {
-       tranformEmployeeList[arr[[key][0]]]=arr[key][1];
-    }
-
-    //Your code
-    
-    return tranformEmployeeList;
-   }
-
-console.log((transformEmployeeData(array2)));
 
 
 //I have a mock data of security Questions and Answers. You function should take the object 
