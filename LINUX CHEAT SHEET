@@ -1,0 +1,53 @@
+ pwd command--
+ Use the pwd command to find out the path of the current working directory
+ 
+ cd command--
+ To navigate through the Linux files and directories, use the cd command
+ 
+ Shortcuts for cd.
+ cd .. (with two dots) to move one directory up
+cd to go straight to the home folder
+cd- (with a hyphen) to move to your previous directory
+
+ls command--
+The ls command is used to view the contents of a directory. By default, this command will display the contents of your current working directory
+
+variations of ls.
+ls -R will list all the files in the sub-directories as well
+ls -a will show the hidden files
+ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
+
+cat command--
+ It is used to list the contents of a file on the standard output (sdout).
+ 
+ Here are other ways to use the cat command:
+
+cat > filename creates a new file
+cat filename1 filename2>filename3 joins two files (1 and 2) and stores the output of them in a new file (3)
+to convert a file to upper or lower case use, cat filename | tr a-z A-Z >output.txt
+
+cp command--
+Use the cp command to copy files from the current directory to a different directory.
+
+mv command--
+The primary use of the mv command is to move files, although it can also be used to rename files.
+Can also used to rename (eg:rename files, the Linux command is mv oldname.ext newname.ext)
+
+mkdir command--
+Use mkdir command to make a new directory .
+
+rmdir command--
+If you need to delete a directory, use the rmdir command. However, rmdir only allows you to delete empty directories
+
+rm command--
+The rm command is used to delete directories and the contents within them. If you only want to delete the directory — as an alternative to rmdir — use rm -r.
+
+Note: Be very careful with this command and double-check which directory you are in. This will delete everything and there is no undo.
+
+touch command--
+The touch command allows you to create a blank new file through the Linux command line.
+
+find command--
+To find files in the current directory use, find . -name notes.txt
+To look for directories use, / -type d -name notes. txt
+
