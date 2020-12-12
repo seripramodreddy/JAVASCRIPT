@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: grey;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+   .bg-secondary{
+    background-color:#6c757d!important}
+
+    .text-white{color:#fff!important}
+
+    .col-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+
+    .col-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+    
+    .btn-primary{
+        color:#fff;background-color:#007bff;border-color:#007bff
+      }
+    </style>
+</head>
+<body>
+    <form class="bg-secondary text-white">
+        <div class="input-container">
+            <label form="fname" class="col-4">Full Name</label>
+              <i class="fa fa-user icon"></i>
+                <input class="input-field col-6" type="text" placeholder="full name" name="fname">
+                </div>
+            <div class="input-container">
+                <label form="add1" class="col-4">Address Line 1</label>
+                <i class="fa fa-address-book icon" aria-hidden="true"></i>
+                    <input class="input-field col-6" type="text" placeholder="address1" name="add1">
+                    </div>
+                    <div class="input-container">
+                        <label form="add2" class="col-4">Address Line 2</label>
+                        <i class="fa fa-address-book icon" aria-hidden="true"></i>
+                            <input class="input-field col-6" type="text" placeholder="address2" name="add2">
+                            </div>
+                            <div class="input-container">
+                                <label form="city" class="col-4">City</label>
+                                  <i class="fa fa-user icon"></i>
+                                    <input class="input-field col-6" type="text" placeholder="city" name="city">
+                                    </div>
+                                    <div class="input-container">
+                                        <label form="state" class="col-4">State/Province/Region</label>
+                                        <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                                            <input class="input-field col-6" type="text" placeholder="state" name="state">
+                                            </div>
+                                            <div class="input-container">
+                                                <label form="zip" class="col-4">PostalCode/zip</label>
+                                                <i class="fa fa-envelope icon" aria-hidden="true"></i>
+                                                    <input class="input-field col-6" type="text" placeholder="zip" name="zip">
+                                                    </div>
+                                                    <div class="input-container">
+                                                        <label form="country" class="col-4">Country</label>
+                                                          <i class="fa fa-user icon"></i>
+                                                            <input class="input-field col-6" type="text" placeholder="country" name="country">
+                                                            </div>
+                                                            <div class="input-container">
+                                                                <label form="email" class="col-4">Email</label>
+                                                                  <i class="fa fa-user icon"></i>
+                                                                    <input class="input-field col-6" type="text" placeholder="email" name="email">
+                                                                    </div>
+                                                                    <div class="input-container">
+                                                                        <label form="number" class="col-4">Phone Number</label>
+                                                                          <i class="fa fa-user icon"></i>
+                                                                            <input class="input-field col-6" type="text" placeholder="number" name="number">
+                                                                            </div>
+                                                                            <button onclick="getData()">Submit</button>
+                                                                              <a class="btn-primary" href="12th assign1.html" role="button">Link to 1</a>
+                                                                              <a class="btn-primary" href="12thassign2.html" role="button">Link to 2</a>
+        </form>
+    </div>
+
+    <script>
+      function getData()
+      {
+        alert("Data submitted successfully")
+      }
+    </script>
+</body>
